@@ -8,5 +8,4 @@ router.patch('/:id', PostsController.patchPosts);
 router.delete('/', PostsController.deleteAllPosts);
 router.delete('/:id', PostsController.deletePosts);
 
-
 module.exports = router;
